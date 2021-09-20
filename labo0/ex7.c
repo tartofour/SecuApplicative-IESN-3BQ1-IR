@@ -9,7 +9,7 @@ void displayNbCharOccurence(char s[], char c)
     s++;
   }
 
-  printf("Nombre d'occurence du caractère '%c' : %d\n", c, count);
+  printf("Nombre d'occurence(s) du caractère '%c' : %d\n", c, count);
 }
 
 int main(void)
