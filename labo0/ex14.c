@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
   size_t argLen = strlen(argv[1])+1;
   char *tableau = (char*) malloc(argLen);
 
-  snprintf(tableau, argLen, "%s", argv[1]);
+  strcpy(tableau, argv[1]);
   printf("Contenu du tableau = %s\n", tableau);   
   printf("Adresse du tableau = %p\n", &tableau);
   printf("Taille du tableau = %d\n", strlen(tableau)+1);

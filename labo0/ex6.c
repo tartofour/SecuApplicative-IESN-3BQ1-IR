@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int mystrlen(char string[])
-{
+int mystrlen(char string[]){
   int len = 0;
 
   while (*string != '\0') {
@@ -12,8 +11,7 @@ int mystrlen(char string[])
   return len;
 }
 
-int main(void)
-{
+int main(void){
   char phrase[]  = "Bonjour à tous";
   int length = mystrlen(phrase);
   printf("length = %d\n", length);
